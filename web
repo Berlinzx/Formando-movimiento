@@ -86,7 +86,7 @@
   </section>
 
   <script>
-    const URL = "https://script.google.com/macros/s/AKfycbwYzFft4ls4nYsv89l7tJsSFjZ78KBaSHoOcZehPrEWX24B0r7lqbfuQW2-aaS1T6Dn/exec"; //
+    const URL = "https://script.google.com/macros/s/AKfycbwYzFft4ls4nYsv89l7tJsSFjZ78KBaSHoOcZehPrEWX24B0r7lqbfuQW2-aaS1T6Dn/exec";
 
     const tablaBody = document.querySelector('#tabla tbody');
     const select = document.getElementById('seleccion');
