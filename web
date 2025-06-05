@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formando Movimiento</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f2f2f2;
+      color: #333;
+    }
+    header {
+      background-color: #4caf50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    section {
+      padding: 1rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 0.75rem;
+      text-align: center;
+    }
+    th {
+      background-color: #e0e0e0;
+    }
+    form {
+      margin-top: 2rem;
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    input, select, button {
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+      width: 100%;
+    }
+    button {
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Formando Movimiento</h1>
+    <p>Actividades dirigidas al aire libre. ¡Apúntate antes de que se llenen los cupos!</p>
+  </header>
+
+  <section>
+    <h2>Horario de Actividades</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Día</th>
+          <th>Actividad</th>
+          <th>Hora</th>
+          <th>Espacios disponibles</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Lunes</td>
+          <td>Yoga</td>
+          <td>09:00 - 10:00</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>Miércoles</td>
+          <td>Entrenamiento funcional</td>
+          <td>18:00 - 19:00</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>Viernes</td>
+          <td>Pilates</td>
+          <td>10:00 - 11:00</td>
+          <td>10</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Formulario de Inscripción</h2>
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSdFAKEURL1234abcd/viewform" method="POST" target="_blank">
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="actividad">Selecciona una actividad:</label>
+      <select id="actividad" name="actividad" required>
+        <option value="Yoga - Lunes">Yoga - Lunes</option>
+        <option value="Funcional - Miércoles">Entrenamiento Funcional - Miércoles</option>
+        <option value="Pilates - Viernes">Pilates - Viernes</option>
+      </select>
+
+      <button type="submit">Inscribirme</button>
+    </form>
+  </section>
+</body>
+</html>
