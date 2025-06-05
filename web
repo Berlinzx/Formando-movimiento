@@ -86,7 +86,7 @@
   </section>
 
   <script>
-    const URL = "PÉGA AQUÍ LA URL DEL WEB APP"; // ← remplaza con tu URL
+    const URL = "https://script.google.com/macros/s/AKfycbwYzFft4ls4nYsv89l7tJsSFjZ78KBaSHoOcZehPrEWX24B0r7lqbfuQW2-aaS1T6Dn/exec"; //
 
     const tablaBody = document.querySelector('#tabla tbody');
     const select = document.getElementById('seleccion');
